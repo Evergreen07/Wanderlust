@@ -1,0 +1,588 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#head{ 
+    background-image: url(pics/lp1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 1.6em;
+}
+
+#head h1{
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 18px;
+   
+}
+
+
+#head a{
+    color: white;
+    font-weight: bolder;
+    font-size: 23px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 12px 18px 12px 18px;
+    line-height: 1.6em;
+    background: rgba(0,0,0,0.25);
+}
+
+#head a:hover{
+    background: rgba(0,0,0,0.55);
+}
+
+#main-header{
+    padding:20px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(94, 255, 0);
+    background-color: rgb(8, 77, 59);
+}
+
+#span{
+    color: rgb(255, 251, 25);
+}
+
+#main-header h1{
+    margin-top: 7.5px;
+    padding-top: 20px;
+}
+
+#main-nav{
+    background-color: forestgreen;
+}
+
+#main-nav ul{
+    list-style: none;
+
+}
+
+#main-nav li{
+    display: inline-block;
+    padding: 12.5px 0px 10px 0px;
+}
+
+#main-nav a{
+    color:white;
+    text-decoration: none; 
+    text-decoration: solid; 
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#main-nav li:hover{
+    background-color: rgb(51, 187, 51);
+}
+
+#main-nav .current a{
+    color:black;
+}
+
+#main-nav .current {
+    background-color: rgb(51, 187, 51);
+}
+
+#main-nav a:hover{
+    color: black;
+}
+
+
+#showcase{
+    background-image: url(pics/bch.jpg);
+    min-height: 465px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    
+}
+
+.container{
+    text-align: left ;
+    min-width: 200px;
+    font-size: 42px;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(1, 1, 95);
+    position: absolute;
+    top: 295px;
+    left: 40px;
+}
+
+.section{
+    background-color: rgb(6, 54, 87);
+    padding: 15px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.section h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    float:left;
+    padding: 8px 300px 0px 0px;
+    
+}
+
+.section form{
+    float: inline-end;
+    padding: 5px 20px 0 0;
+}
+
+.section input[type="email"]{
+    padding:7px;
+    min-width:25%;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.section button{
+    padding:7px;
+    width:8%;
+    border: ridge 0.8px black;
+    border-radius: 5px;
+    background: lightgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 13.5px;
+    line-height: 20px;
+}
+
+.button1{
+    margin-left: 10px;
+    min-width: 90px;
+}
+
+#mainsec{
+    margin-top: 30px;
+}
+
+#mainsec .cont{
+    float: left;
+    width: 30%;
+    padding:20px;
+    text-align: center;
+}
+
+.img{
+    width:160px;
+    height:100px;
+}
+
+.cont{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.cont h3{
+    padding:7px;
+    font-size: 22px;
+}
+
+.footer,.footer-ser{
+    margin-top: 270px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding:25px;
+    line-height: 15px;
+    font-size: 25px;
+    color: rgb(72, 255, 0);
+    background-color: rgb(4, 39, 30);
+}
+
+/*PAGE 2: ABOUT*/
+
+.about{
+    margin: 35px 50px 0px 70px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(1, 1, 95);
+}
+
+.footerabout{
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding:25px;
+    line-height: 15px;
+    font-size: 25px;
+    color: rgb(72, 255, 0);
+    background-color: rgb(4, 39, 30);
+}
+/*PAGE 3: SERVICES*/
+
+.services{
+    float:left;
+    width:58%;
+    margin:40px;
+}
+
+.services li{
+    list-style: none;
+    border:solid rgb(1, 1, 95) 1.5px;
+    border-style: double;
+    border-radius: 10px;
+    padding:30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    font-weight: 500;
+    background-color: lavender;
+}
+
+.services h1{
+    margin-left: 15px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 1, 95);
+}
+.services h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.sidebar{
+    margin:50px 65px 0 0;
+    float:right;
+    padding: 25px; 
+}
+
+.sideform{
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: rgb(6, 54, 87);
+    padding: 15px 25px 13px 25px; 
+}
+
+.sideform2{
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: lightslategray;
+    padding: 15px 25px 13px 25px; 
+}
+
+.sidebar h3,.sidebar2 h3{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.sidebar label,.sidebar2 label{
+    display: block;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding-bottom: 5px;
+    color: white;
+    line-height: 1.5em;
+}
+
+.sidebar [type="name"],.sidebar input[type="email"], .sidebar [type="password"],.sidebar2 input[type="email"], .sidebar2 [type="password"]{
+    width:85%;
+    padding:5px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.sidebar [type="submit"],.sidebar2 [type="submit"]{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width:40%;
+    padding: 6px;
+    border-radius: 12px;
+    border-style: double;
+}
+
+.sidebar2{
+    float: right;
+    margin: 55px 109px 0 0;
+}
+
+.ser{
+    margin-top: 940px;
+}
+
+/*PAGE 4: GALLERY*/
+
+.footer-gallery{
+    margin-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding:25px;
+    line-height: 15px;
+    font-size: 25px;
+    color: rgb(72, 255, 0);
+    background-color: rgb(4, 39, 30);
+}
+
+.slider{
+    margin: 15px 0px 0px 255px;
+    padding: 0;
+    background-color: darkslategrey;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 68vh;
+    width: 60vw;
+    justify-content: center;
+    position: relative;
+    border-radius: 20px;
+}
+
+.slide{
+    position: absolute;
+    border-radius: 20px;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity 0.8s ease-in-out 0.3s;
+}
+
+.slide .content{
+    position: absolute;
+    bottom: 55px;
+    right: 40px;
+    color: white;
+}
+
+.slide.curr{
+    opacity: 1;
+}
+
+.slide:first-child{
+    background: url(pics/Thailand.jpg) no-repeat center center/cover;
+}
+.slide:nth-child(2) {
+    background: url(pics/Desert.jpg) no-repeat center center/cover;
+}
+.slide:nth-child(3) {
+    background: url(pics/Amazon\ forest.jpg) no-repeat center center/cover;
+}
+.slide:nth-child(4) {
+    background: url(pics/Tiger.jpg) no-repeat center center/cover;
+}
+.slide:nth-child(5) {
+    background: url(pics/Toronto.jpg) no-repeat center center/cover;
+}
+
+.btns button#left{
+    position: absolute;
+    top: 60%;
+    left: 120px;
+}
+
+.btns button#right{
+    position: absolute;
+    top: 60%;
+    right: 120px;
+}
+
+.btns button{
+    padding: 7px 5px;
+    border-radius: 10px;
+    border: black solid;
+    border-width: 1.5px;
+}
+
+.btns button:hover{
+    background-color: lightsteelblue;
+} 
+
+/* PAGE 5: CONTACT US  */
+
+.footerct{
+    margin-top: 315px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding:25px;
+    line-height: 15px;
+    font-size: 25px;
+    color: rgb(72, 255, 0);
+    background-color: rgb(4, 39, 30);
+}
+
+.aboutct{
+    float: left;
+    margin: 25px 0px 30px 70px;
+    padding: 20px 55px 20px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: black solid 1.5px;
+    border-radius: 10px;
+    background-color: lavender;
+}
+
+.asd{
+    float: right;
+    margin: 85px 130px;
+}
+
+.asd h3{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+.button2{
+    padding: 5px 7px 5px 7px;
+    min-width: 90px;
+    position: absolute;
+    bottom: 90px;
+    right: 352px;
+}
+
+/*Media Queries*/
+
+@media(max-width: 768px)
+{   header #main-header,
+    header h1,
+    nav #main-nav,
+    nav li,
+    .section h2,
+    .section form,.p
+    {
+        float: none;
+        text-align: center;
+        width:100%;
+    }
+
+    .container{
+        margin-top: 150px;
+    }
+    
+    .section form input[type="email"]{
+        margin-top: 10px;
+    }
+
+    .footer{
+        margin-top: -230px;
+    }
+
+    .footer-gallery{
+        margin-top:95px;
+    }
+
+    .footer h3,.footer-gallery h3,.footerabout h3,.footerct h3,.footer-ser h3
+    {   font-size: 18px;
+        text-align: center;
+        width:100%;
+    }
+    
+    .about{
+        width: 75%;
+    }
+
+    .abouttxt{
+        font-size: 16px;
+    }
+    .services{
+        width: 85%;
+        float: none;
+        position: relative;
+    }
+    .sidebar{
+        width: 90%;
+        text-align: center;
+        float: left;
+        position: absolute;
+    }
+
+    .sidebar2{
+        margin-top: 500px;
+    }
+    .ser{
+        margin-top: 860px;
+    }
+    #mainsec .cont{
+        width:91.5%;
+        float: none;
+        text-align: center;
+    }
+
+    #head h1{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .about{
+        font-size:10px ;
+    }
+
+    .aboutct{
+        float: none;
+        margin-top: 40px;
+        width: 60%;
+        text-align: center;
+    }
+
+    .asd{
+        position: relative;
+        float: left;
+        width: 60%;
+        text-align: center;
+    }
+
+    .button2{
+        position: absolute;
+        bottom: -510px;
+        right: 185px;
+    }
+    
+    .asd h3{
+        position: absolute;
+        left: -3px;
+        top: -40px;
+    }
+    #asdid{
+       position: absolute; 
+       left: -30px;
+       top: -5px;
+    }
+
+    .slider{
+        width: 95%;
+        margin: 40px 10px 30px 12px;
+        position: relative;
+    }
+    
+    .btns button#left{
+        position: absolute;
+        top: 141%;
+        left: 150px;
+    }
+
+    .btns button#right{
+        position: absolute;
+        top: 141%;
+    }
+}
