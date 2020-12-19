@@ -493,7 +493,7 @@
     }
 
     .footer h3,.footer-gallery h3,.footerabout h3,.footerct h3,.footer-ser h3
-    {   font-size: 18px;
+    {   font-size: 16px;
         text-align: center;
         width:100%;
     }
@@ -541,21 +541,15 @@
     .aboutct{
         float: none;
         margin-top: 40px;
-        width: 60%;
+        width: 55%;
         text-align: center;
     }
 
     .asd{
         position: relative;
         float: left;
-        width: 60%;
+        width: 54%;
         text-align: center;
-    }
-
-    .button2{
-        position: absolute;
-        bottom: -510px;
-        right: 185px;
     }
     
     .asd h3{
@@ -564,14 +558,22 @@
         top: -40px;
     }
     #asdid{
-       position: absolute; 
+       position: absolute;
+       width: 115%; 
        left: -30px;
        top: -5px;
     }
 
+    .button2{
+        position: absolute;
+        top: 255%;
+        left: 45%;
+        height: 6%;
+    }
+
     .slider{
         width: 95%;
-        margin: 40px 10px 30px 20px;
+        margin: 40px 10px 30px 12px;
         position: relative;
     }
     
