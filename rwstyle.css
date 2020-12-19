@@ -489,7 +489,7 @@
     }
 
     .footer-gallery{
-        margin-top:95px;
+        margin-top:60px;
     }
 
     .footer h3,.footer-gallery h3,.footerabout h3,.footerct h3,.footer-ser h3
@@ -571,18 +571,19 @@
 
     .slider{
         width: 95%;
-        margin: 40px 10px 30px 12px;
+        margin: 40px 10px 30px 20px;
         position: relative;
     }
     
     .btns button#left{
-        position: absolute;
-        top: 141%;
-        left: 150px;
+        position: relative;
+        top: 45%;
+        left: 32%;
     }
 
     .btns button#right{
-        position: absolute;
-        top: 141%;
+        position: relative;
+        top: 45%;
+        left: 42%;
     }
 }
