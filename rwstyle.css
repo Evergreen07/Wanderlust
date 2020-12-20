@@ -461,6 +461,10 @@
     right: 352px;
 }
 
+textarea{
+    resize: none;
+}
+
 /*Media Queries*/
 
 @media(max-width: 768px)
@@ -505,7 +509,7 @@
     }
 
     .footerct{
-        margin-top: 100px;
+        margin-top: -10px;
     }
     
     .about{
@@ -540,6 +544,7 @@
     .ser{
         margin-top: 860px;
     }
+
     #mainsec .cont{
         width:91.5%;
         float: none;
@@ -556,17 +561,18 @@
     }
 
     .aboutct{
+        font-size: 15px;
         float: none;
         margin-top: 40px;
-        width: 62%;
+        width: 60%;
         position: relative;
-        right: 9%;
+        right: 7%;
     }
 
     .asd{
         margin-top: 60px;
         float: none;
-        width: 54%;
+        width: 52%;
         text-align: center;
         position: relative;
     }
@@ -574,18 +580,18 @@
     .asd h3{
         font-size: 16px;
         position: relative;
-        right: 20%;
+        right: 15%;
     }
+    
     #asdid{
-       position: relative;
-       width: 145%;
-       right: 45%;
+        width: 122%;
+        position: relative;
+        left: -25%;
     }
 
     .button2{
-       position: absolute;
-       left: 40%;
-       bottom: -81%;
+       position: relative;
+       left: 42.5%;  
     }
 
     .slider{
