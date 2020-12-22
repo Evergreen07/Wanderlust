@@ -1,5 +1,5 @@
 ## WanderLust
-A Travel agency themed frontend website.
+A Travel agency themed **static** website.
 
 ## Features
 - **<ins> Home Page</ins> :** Citing a showcase & brief overview of services provided.
@@ -12,5 +12,5 @@ A Travel agency themed frontend website.
 To view the site visit : https://evergreen07.github.io/wanderlust-frontend/ 
 
 <ins>NOTE</ins> : 
-- This just a basic website made with HTML5, CSS3 & a bit of Js.
+- This is a static website made with HTML5, CSS3 & a bit of Js.
 - Its not **fully Responsive**, Best viewed in Screens of width around **1440px** & Mobile devices of width **375px to 425px.**
