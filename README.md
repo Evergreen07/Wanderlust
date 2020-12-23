@@ -14,3 +14,6 @@ To view the site visit : https://evergreen07.github.io/wanderlust-frontend/
 <ins>NOTE</ins> : 
 - This is a static website made with HTML5, CSS3 & a bit of Js.
 - Its not **fully Responsive**, Best viewed in Screens of width around **1440px** & Mobile devices of width **375px to 425px.**
+
+## Updates
+You are free you suggest updates,modifications & also contribute by making a pull request.
