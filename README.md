@@ -2,6 +2,7 @@
 A Travel agency themed **static** website.
 
 ## Features
+- **<ins> Landing Page</ins> :** A landibg page that takes you to the home page, on the click of a button. 
 - **<ins> Home Page</ins> :** Citing a showcase & brief overview of services provided.
 - **<ins>About</ins> :** A summary about the company.
 - **<ins>Services</ins> :** A brief description of services, along with a *sign-up & login* form.
