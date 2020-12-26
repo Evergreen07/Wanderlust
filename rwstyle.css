@@ -169,6 +169,7 @@
 .button1{
     margin-left: 10px;
     min-width: 90px;
+    cursor: pointer;
 }
 
 #mainsec{
@@ -318,6 +319,7 @@
     padding: 6px;
     border-radius: 12px;
     border-style: double;
+    cursor: pointer;
 }
 
 .sidebar2{
@@ -410,6 +412,8 @@
     border-radius: 10px;
     border: black solid;
     border-width: 1.5px;
+    cursor: pointer;
+    outline: none;
 }
 
 .btns button:hover{
